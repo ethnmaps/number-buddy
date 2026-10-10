@@ -1,6 +1,6 @@
-   # Number Buddy
+# Number Buddy
 
-   A number-writing practice game for young children.
-   The child draws a digit and a neural network checks it.
+A number-writing practice game for young children.
+The child draws a digit and a neural network checks it.
 
-   Status: work in progress
+Status: work in progress
