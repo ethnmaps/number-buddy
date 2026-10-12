@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff4d6;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  color: #ff6b35;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.prompt {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#target {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+canvas {
+  background: #000;
+  border: 6px solid #ff6b35;
+  border-radius: 20px;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 28px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: #fff;
+  background: #2a9d8f;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #21867a;
+}
