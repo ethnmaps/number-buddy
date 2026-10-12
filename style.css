@@ -10,17 +10,22 @@ body {
 
 main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 h1 {
   color: #ff6b35;
   font-size: 2.5rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .prompt {
   font-size: 1.5rem;
   color: #333;
+  margin: 0;
 }
 
 #target {
@@ -35,10 +40,17 @@ canvas {
   border-radius: 20px;
   cursor: crosshair;
   touch-action: none;
+  display: block;
+}
+
+main > div {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
 
 button {
-  margin-top: 16px;
+  margin-top: 0;
   padding: 12px 28px;
   font-size: 1.2rem;
   font-family: inherit;
@@ -47,6 +59,10 @@ button {
   border: none;
   border-radius: 999px;
   cursor: pointer;
+}
+
+#message {
+  margin: 0;
 }
 
 button:hover {
